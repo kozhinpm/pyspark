@@ -64,7 +64,7 @@ def crossval(pipeline, evaluator, model_param):
                           numFolds=10)
 
 
-def process(spark, data_path='6_1/session-stat.parquet', model_path='cv_model'):
+def process(spark, data_path='session-stat.parquet', model_path='cv_model'):
     """
     Основной процесс задачи. Обучает модель.
 
